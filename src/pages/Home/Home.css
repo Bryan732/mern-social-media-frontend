@@ -1,0 +1,178 @@
+.home {
+    min-height: 100vh;
+    background-color: #e0e0e0;
+    font-family: 'Comic Neue', cursive;
+}
+
+.home-body {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home-editor {
+    max-width: 760px;
+    margin: 50px auto 0 auto;
+    padding: 30px 30px 30px 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.editor-button {
+    margin-top: 10px;
+}
+
+.editor-button input {
+    border: 'none';
+}
+
+.editor-button button {
+    float: right;
+    width: 100px;
+    height: 35px;
+    color: white;
+    font-size: 16px;
+    background-color: #ec407a;
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.editor-button button:hover {
+    background-color: #c2185b;
+    transition: 0.3s;
+}
+
+.home-content {
+    max-width: 780px;
+    min-height: 50px;
+    margin: 20px auto 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.content-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content-header p {
+    margin-left: 10px;
+}
+
+.content-text {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.content-edit {
+    width: 500px;
+    margin-top: 30px;
+}
+
+.content-image {
+    margin-left: -20px;
+    margin-right: -20px;
+    max-width: 820px;
+    max-height: 720px;
+    overflow: hidden;
+    background-color: lightgray;
+}
+
+.content-image img {
+    display: block;
+    width: 100%;
+    max-height: 720px;
+    object-fit: scale-down;
+}
+
+.content-footer {
+    display: flex;
+    flex-direction: row;
+    padding: 3px 0;
+    justify-content: space-between;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.content-footer div {
+    height: 34px;
+    width: 49.5%;
+    justify-content: center;
+    border-radius: 5px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.content-footer div:hover {
+    background-color: lightgray;
+    transition: 0.2s;
+}
+
+.comment-option {
+    opacity: 0;
+    transition: 0.1s;
+}
+
+.comment-option:hover {
+    opacity: 1;
+    transition: 0.1s;
+}
+
+.comment-input {
+    width: 100%;
+    margin-left: 10px;
+    padding-left: 12px;
+    border-radius: 20;
+    border: none;
+    background-color: lightgray;
+}
+
+.comment-input:focus {
+    outline: 1px solid grey;
+}
+
+.popup-auth {
+    width: 350px;
+}
+
+.popup-auth h1 {
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+
+.popup-auth form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.popup-auth input {
+    width: 80%;
+    height: 30px;
+    padding-left: 10px;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+}
+
+.popup-auth input:focus {
+    outline: 1px solid grey;
+}
+
+.popup-auth button {
+    margin-top: 40px;
+    width: 84%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}

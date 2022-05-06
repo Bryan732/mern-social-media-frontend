@@ -1,0 +1,76 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px 0 50px;
+    border-bottom: 1px solid lightgrey;
+    background-color: white;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+
+.navbar h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    color: black;
+    cursor: pointer;
+}
+
+.navbar-right {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-right h2 {
+    margin-top: 3px !important;
+}
+
+.navbar-profile {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    padding: 5px 12px 5px 5px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.navbar-profile:hover {
+    background-color: #7e57c2;
+    color: white;
+    transition: 0.3s;
+}
+
+.navbar-profile p {
+    align-self: center;
+    margin-left: 10px;
+}
+
+.signin-button {
+    margin-right: 30px;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.signup-button {
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ec407a;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.signup-button:hover {
+    background-color: #c2185b;
+    transition: 0.3s;
+}

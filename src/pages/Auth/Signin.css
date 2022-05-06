@@ -1,0 +1,107 @@
+.signin {
+    display: flex;
+    flex-direction: row;
+}
+
+.signin-left {
+    max-height: 969px;
+    width: 650px;
+    position: relative;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 18px;
+    left: 35%;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.copyright a {
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.signin-left img {
+    display: block;
+    height: 100%;
+    width: auto;
+    object-fit: scale-down;
+}
+
+.signin-right {
+    flex-grow: 1;
+}
+
+.exist {
+    width: 100%;
+}
+
+.exist p {
+    float: right;
+    margin-right: 60px;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.exist span {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.exist span:hover {
+    color: #9C27B0;
+    transition: 0.3s;
+}
+
+.signin-form {
+    width: 500px;
+    margin: 300px auto 0 auto;
+}
+
+.signin-form span {
+    font-family: 'Pacifico', cursive;
+}
+
+.signin-form form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.signin-form label {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.signin-form input {
+    height: 40px;
+    margin-top: 5px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #e0e0e0;
+}
+
+.signin-form button {
+    margin-top: 50px;
+    width: 220px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ec407a;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.signin-form button:hover {
+    background-color: #c2185b;
+    transition: 0.3s;
+}
